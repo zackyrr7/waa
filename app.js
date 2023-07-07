@@ -33,7 +33,7 @@ app.use(fileUpload({
 }));
 
 app.get('/', (req, res) => {
-  res.sendFile('index.html', {
+  res.sendFile('public/index.html', {
     root: __dirname
   });
 });
